@@ -10,12 +10,17 @@ using namespace std;
 template <class T>
 float half(const T)
 {
+    round(T);
 
+    cout << T endl;
 }
 
 int half(int i)
 {
+    float m = static_cast<float>(i);
 
+    round(i);
+    cout << i << endl;
 }
 
 
